@@ -1,0 +1,219 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (min-width: 544px) {  
+  body {font-size:1.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  body {font-size:2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  body{font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  body {font-size:3rem;} /*1rem = 16px*/    
+}
+ 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer{
+  position: absolute;
+  bottom: 0ch;
+  width: 100%;
+  height: 5%;
+  background-color: #282c34;
+  text-align: center;
+  color: aliceblue;
+}
+
+.heaad{
+  text-align: center;
+  width:100%;
+  height:50px;
+
+}
+
+.heaad a{
+  font-size: 25px;
+  font-family: Impact, fantasy;
+}
+
+.btn{
+  margin: 0 5px;
+}
+
+.add_emp{
+  margin-top: 17px;
+  height:45px;
+  width:150px;
+  display: inline;
+  vertical-align:middle;
+  border: 3px solid #000000 !important;
+  
+  /* margin: 10px 0px; */
+}
+
+.add_emp:hover{
+
+  color: #FAFAFA !important;
+  /* background-color: #0000 !important; */
+  background-color: #000 !important;
+  /* border: 3px solid #f7cd2a !important; */
+}
+
+.width100{
+  width:100%;
+}
+
+.add-emp-div{
+  background-color:#f7cd2a;
+  width:100%;
+  margin-top: 5%;
+  border-radius: 25px 25px 0px 0px;
+
+}
+
+.emp-list{
+  height: 45px;
+  font-size: 18px;
+  margin-top: 27px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  /* line-height: 10px; */
+  vertical-align: middle;
+}
+
+.emp-list-table{
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+
+/* * { border: 1px solid black; } */
+
+.x{
+  width: 50%;
+  display:contents;
+}
+
+
+
+body{font-family: BinancePlex,Arial,PingFangSC-Regular,'Microsoft YaHei',sans-serif!important;
+background-color: #FAFAFA !important;
+
+}
+
+.email_idd{
+  color:#f7cd2a;
+  font-weight: 100;
+}
+
+.btn{
+  background-color:#f7cd2a ;
+}
+
+.button1{
+  background-color:#f7cd2a !important;
+  color: black !important;
+  border: 1px solid #f7cd2a !important;
+
+}
+
+.button1:hover{
+  background-color: rgb(98, 255, 59) !important;
+  border: 1px solid #000000 !important;
+}
+
+.button2{
+  background-color:#f7cd2a !important;
+  border: 1px solid #f7cd2a !important;
+  color: black !important;
+}
+
+.button2:hover{
+  border: 1px solid #000000 !important;
+  background-color: rgb(255, 59, 59) !important;
+}
+
+
+.card-addEmp{
+  margin-top: 20%;
+  padding: 20px;
+}
+
+.buttonfromaddemp1{
+  background-color:#f7cd2a !important;
+  border: 1px solid #000000 !important;
+  color: black !important;
+  margin-top: 20px;
+  width:49%;
+
+}
+.buttonfromaddemp1:hover{
+  background-color:#f7ce2a00 !important;
+  border: 1px solid #f7cd2a !important;
+  color: rgb(0, 0, 0) !important;
+  margin-top: 20px;
+  width:49%;
+
+}
+.buttonfromaddemp2{
+
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 1px solid #ff0000 !important;
+  margin-top: 20px;
+  width:46%;
+
+}
+.buttonfromaddemp2:hover{
+  color: rgb(255, 255, 255) !important;
+  background-color:red !important;
+  margin-top: 20px;
+  width:46%;
+}
+.marginupardus{
+  font-size: 13px;
+  margin-top: 10px;
+}
